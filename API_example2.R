@@ -26,3 +26,6 @@ http_status(sfrDC_json)
 #get the contents of the response as a text string
 sfrDC_json <- content(sfrDC_json, as = "text") # create a character matrix from the JSON
 sfrDC_data <-fromJSON(sfrDC_json)$results
+
+
+##adding random things here to practice git
